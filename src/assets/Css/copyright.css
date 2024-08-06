@@ -1,0 +1,22 @@
+.copyright-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.copy {
+  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
+  font-size: 15px;
+
+  font-family: "Work Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  line-height: 1;
+}
+.copy-nadeem {
+  color: var(--primary-text-color);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  line-height: 1;
+}

@@ -1,0 +1,65 @@
+.social-media-container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.social-media {
+  color: var(--primary-text-color);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  line-height: 1;
+
+  font-style: normal;
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-link {
+  text-align: center;
+  margin: 0 20px;
+
+  /* Set width to 100% on small screens */
+  @media (max-width: 600px) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.link-title {
+  color: var(--secondary-text-color);
+  font-size: 15px;
+
+  font-family: "Work Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-block; /* Make the text inline-block to center it */
+}
+
+.link-title:hover + .social-divider {
+  border-color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.social-divider {
+  cursor: pointer;
+  border: 2px solid var(--secondary-green);
+
+  border-radius: 5px;
+  transition: border-color 0.3s linear;
+  width: 100%; /* Make the divider take the full width */
+
+  /* Center the divider on small screens */
+  @media (max-width: 600px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

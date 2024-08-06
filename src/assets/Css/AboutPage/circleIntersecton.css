@@ -1,0 +1,119 @@
+.circle-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+}
+
+.grid-container {
+  animation: moveUpDown 2s infinite alternate; /* Adjust the duration and other properties as needed */
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0); /* Start position */
+  }
+  100% {
+    transform: translateY(20px); /* End position */
+  }
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--second-circle);
+  overflow: hidden;
+}
+
+.circle1 {
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle1 img {
+  width: 150px;
+  height: 150px;
+}
+
+.circle2 {
+  width: 250px;
+  height: 250px;
+  top: 0px;
+  left: 150px;
+}
+
+.circle3 {
+  width: 250px;
+  height: 250px;
+  top: 190px;
+  left: 150px;
+}
+
+@media (max-width: 768px) {
+  .circle1 {
+    width: 150px;
+    height: 150px;
+    top: 90px;
+    left:-50px
+  }
+  .circle2 {
+    width: 200px;
+    height: 200px;
+    left: 50px;
+  }
+  .circle3 {
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 50px;
+  }
+  .circle1 img {
+    width: 70px;
+    height: 70px;
+  }
+  .grid-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.full-intro-container {
+  padding-left: 90px;
+}
+
+@media (max-width: 768px) {
+  .full-intro-container {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .circle-container {
+    margin-left:40px;
+  }
+}
+
+.full-intro {
+  color: var(--secondary-text-color);
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.namaste {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--primary-text-color);
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.react-js {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}

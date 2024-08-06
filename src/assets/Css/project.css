@@ -1,0 +1,62 @@
+.container {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 40px;
+}
+.project-link {
+  text-decoration: none;
+}
+.projects {
+  color: var(--primary-text-color);
+
+  font-family: "Work Sans", sans-serif !important;
+  font-optical-sizing: auto !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-size: 25px !important;
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+}
+.project-card {
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--primary-text-color);
+  border: 1px solid var(--light-green);
+  box-shadow: none;
+
+  transition: background-color 0.3s, transform 0.3s;
+
+  &:hover {
+    background-color: white;
+
+    color: #1f293b;
+    transform: scale(1.1);
+  }
+}
+.data-typography {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--primary-text-color);
+}
+.project-description {
+  color: var(--secondary-text-color);
+  text-transform: none;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+
+}
