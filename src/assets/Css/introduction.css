@@ -31,6 +31,7 @@
 @media (max-width: 598px) {
   .intro-container {
     margin-top: 0px;
+    padding-right: 40px
   }
 }
 .ha-it-solutions {
