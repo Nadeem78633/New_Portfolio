@@ -3,8 +3,7 @@ import {
   About,
   Introduction,
   Projects,
-  SocialMedia,
-  CopyRight,
+ 
 } from "../Components";
 import { Grid } from "@mui/material";
 
@@ -21,8 +20,7 @@ const Home = () => {
       </Grid>
 
       <Projects />
-      <SocialMedia />
-      <CopyRight />
+     
     </div>
   );
 };

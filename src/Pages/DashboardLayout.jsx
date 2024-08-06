@@ -1,5 +1,6 @@
-import { Header } from "../Components";
+import { Header,SocialMedia,CopyRight } from "../Components";
 import { Outlet } from "react-router-dom";
+
 
 const DashboardLayout = () => {
   return (
@@ -8,6 +9,8 @@ const DashboardLayout = () => {
       <main style={{ marginTop: "60px" }}>
         <Outlet />
       </main>
+      <SocialMedia />
+      <CopyRight/>
     </>
   );
 };

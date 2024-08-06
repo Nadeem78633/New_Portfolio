@@ -4,8 +4,7 @@ import quizApp from "../assets/img/Projects/quizApp.png";
 import ecommerce from "../assets/img/Projects/e-commerce.png";
 import weatherApp from "../assets/img/Projects/weatherApp.png";
 import mosque from "../assets/img/Projects/mosque.png";
-import SocialMedia from "./SocialMedia";
-import CopyRight from "./CopyRight";
+
 const Projects = () => {
   const projects = [
     {
@@ -74,8 +73,6 @@ const Projects = () => {
           ))}
         </Grid>
       </div>
-      <SocialMedia />
-      <CopyRight />
     </>
   );
 };
