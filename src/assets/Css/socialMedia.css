@@ -27,11 +27,7 @@
   text-align: center;
   margin: 0 20px;
 
-  /* Set width to 100% on small screens */
-  @media (max-width: 600px) {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+ 
 }
 .link-title {
   color: var(--secondary-text-color);

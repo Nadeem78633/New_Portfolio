@@ -92,10 +92,42 @@
     justify-content: center;
   }
 }
-
-@media (min-width: 425px) {
+@media (max-width: 599px) {
   .card-container {
-    padding-left: 0px;
-    padding-right: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .circles1 {
+    width: 240px;
+    height: 240px;
+    top: 15px;
+    left: -50px;
+  }
+
+  .circles2 {
+    width: 130px;
+    height: 130px;
+    left: 130px;
+    top: 15px;
+  }
+
+  .circles3 {
+    width: 100px;
+    height: 100px;
+    top: 120px;
+    left: 140px;
+  }
+
+  .grids-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 425px) {
+  .card-container {
+    
+    margin: 0px;
   }
 }

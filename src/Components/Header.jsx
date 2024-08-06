@@ -75,7 +75,7 @@ const Header = () => {
               >
                 <MenuItem onClick={handleCloseNavMenu}>
                   <NavLink
-                    to="/link"
+                    to="/projects"
                     className={({ isActive }) =>
                       isActive ? "project project-active" : "project"
                     }
@@ -126,7 +126,7 @@ const Header = () => {
               className="navlink-container"
             >
               <NavLink
-                to="/link"
+                to="/projects"
                 className={({ isActive }) =>
                   isActive ? "project project-active" : "project"
                 }
